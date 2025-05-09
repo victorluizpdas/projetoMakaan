@@ -1,0 +1,128 @@
+:root {
+  --primary: #00b98e;
+  --primaryShadow :#00a07a ;
+  --secondary: #d7e9df;
+  --light: #f0f0f0;
+  --dark: #0e2e50;
+  --shadow: #0e2e503d;
+
+}
+
+body{
+  font-family: "Heebo",sans-serif;
+  margin: 0px;
+  background-color: var(--secondary);
+  height: 609px;
+  width: 1260px;
+}
+
+header{
+  display: flex;
+  justify-content:space-between;
+  font-weight: bold;
+
+  background-color: var(--light);
+
+}
+
+strong{
+  color: var(--primary);
+}
+header figure{
+  margin: 15px 0px 15px 15px;
+  
+}
+header img{
+  padding: 5px;
+  border: dashed ;
+  border-radius: 50%;
+  border-color: var(--primary);
+  border-width: 1px;
+  width: 35px;
+  height: 35px;
+}
+header #container-logo{
+  display: flex;
+  font-size: 25px; 
+}
+#container-logo h2{
+  margin: 15px;
+  margin-left: 5px;
+  text-align: center;
+}
+nav{
+  justify-self: right;
+  
+}
+nav ul{
+  margin: 30px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+
+main{
+  display: flex;
+}
+
+main figure{
+  margin: 0px;
+}
+main img{
+  height: 630px;
+  width: 510px;
+}
+#about{
+  margin: 50px;
+  color: var(--dark);
+
+}
+#about h1{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+#about p{
+  color: rgba(42, 42, 42, 0.787);
+  font-size: 15px;
+}
+
+#about button{
+  border: none;
+  height: 60px;
+  width: 170px;
+  font-weight: bold;
+  color: var(--secondary);
+  background-color: var(--primary);
+  border-radius: 6px;
+}
+
+#about button:hover{
+  background-color: var(--primaryShadow)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
